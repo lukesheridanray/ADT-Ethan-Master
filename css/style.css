@@ -646,7 +646,7 @@ Media Queries
 
 
 
-  @media screen and (min-width: 540px) {
+  @media screen and (min-width: 200px) {
     nav ul li a span {
       display: flex;
     }
