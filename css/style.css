@@ -650,7 +650,7 @@ Media Queries
     nav ul li a span {
       display: flex;
       flex-direction:  column;
-      font-size: 11px;
+      font-size: 20px;
     }
     i {
       display: none;
