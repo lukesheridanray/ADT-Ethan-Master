@@ -299,7 +299,6 @@ Details style
   .banner.home {
       display: block;
       padding-top: 170px;
-      height: 850px;
       background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
       background-size: cover;
       color: white;
@@ -425,7 +424,7 @@ Details style
   p.intro {
     border: solid 1px #878787;
     padding: 13px;
-    width: 65%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -630,6 +629,7 @@ Media Queries
     height: auto;
   }
 
+
   .locations {
     align-items: center;
     text-align: center;
@@ -753,6 +753,26 @@ Media Queries
         font-weight: bold;
         line-height: 1.5;
         /*text-shadow: 0 1px 1px rgba(0, 0, 0, .8);*/
+      }
+      p.intro {
+        border: solid 1px #878787;
+        padding: 13px;
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+       .banner.home {
+            display: block;
+            padding-top: 170px;
+            height: 850px;
+            background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            max-width: 100%;
+          }
+
       }
       .h5head {
         font-size: 25px;
