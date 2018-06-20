@@ -424,7 +424,7 @@ Details style
   p.intro {
     border: solid 1px #878787;
     padding: 13px;
-    width: 65%;
+    width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -747,6 +747,14 @@ Media Queries
         max-width: 100%;
 
       }
+      p.intro {
+        border: solid 1px #878787;
+        padding: 13px;
+        width: 65%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
       .h4head {
         font-size: 25px;
         font-family: 'Open Sans',sans-serif;
