@@ -623,6 +623,9 @@ Media Queries
     .intro {
       display: none;
     }
+    .title-pic {
+      display: none;
+    }
   }
   .Photo {
     width: 80%;
