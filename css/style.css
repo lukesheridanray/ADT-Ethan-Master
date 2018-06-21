@@ -296,15 +296,8 @@ Details style
     padding-top: .5em;
     padding-bottom: .5em;
   }
-  .banner.home {
-      display: block;
-      padding-top: 170px;
-      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
-      background-size: cover;
-      color: white;
-      text-align: center;
-      max-width: 100%;
-    }
+
+
 
   .banner.coffee {
       display: block;
@@ -623,8 +616,11 @@ Media Queries
     .intro {
       display: none;
     }
-    .title-pic {
+    /*.title-pic {
       display: none;
+    }*/
+    .title-pic {
+      width: 50%;
     }
   }
   .Photo {
@@ -662,6 +658,17 @@ Media Queries
       width: 50%;
       height: auto;
     }
+    .home {
+    display: block;
+    padding-top: 15%;
+    padding-bottom: 3%;
+    margin-bottom: 62px;
+    background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url(../img/kidflying.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    max-width: 100%;
+}
 
 
     .call-me-maybe {}
@@ -780,6 +787,17 @@ Media Queries
   .ecuador {
     padding-bottom: 15px;
   }
+  .banner.home {
+      display: block;
+      padding-top: 170px;
+      padding-bottom: 0px;
+      margin-bottom: 0px;
+      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      max-width: 100%;
+    }
 
 
 }
