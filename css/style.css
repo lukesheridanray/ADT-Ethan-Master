@@ -299,7 +299,7 @@ Details style
   .banner.home {
       display: block;
       padding-top: 170px;
-      background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
+      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
       background-size: cover;
       color: white;
       text-align: center;
@@ -310,7 +310,7 @@ Details style
       display: block;
       padding-top: 170px;
       height: 850px;
-      background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/Shop+photo.jpg') no-repeat center;
+      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/Shop+photo.jpg') no-repeat center;
       background-size: cover;
       color: white;
       text-align: center;
@@ -320,7 +320,7 @@ Details style
     display: block;
     padding-top: 170px;
     height: 850px;
-    background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/real+location.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/real+location.jpg') no-repeat center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -330,7 +330,7 @@ Details style
     display: block;
     padding-top: 170px;
     height: 850px;
-    background: linear-gradient(rgba(0, 69, 170, 1), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/wholesale+pix+fin.jpg') no-repeat center;
+    background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa  url('../img/wholesale+pix+fin.jpg') no-repeat center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -390,7 +390,7 @@ Details style
   .main-footer {
     padding-top: 60px;
     padding-bottom: 60px;
-    border-bottom: 8px solid rgba(0, 69, 170, 1);
+    border-bottom: 8px solid rgba(0, 69, 170, .22);
   }
   .social-icon {
     width: 20px;
@@ -432,7 +432,7 @@ Details style
 
 
   .shop {
-    color: rgba(0, 69, 170, 1);
+    color: rgba(0, 69, 170, .22);
     text-align: left;
     padding-left: 50px;
     padding-right: 50px;
