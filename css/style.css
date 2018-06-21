@@ -705,6 +705,7 @@ Media Queries
     .title-pic {
       font-size: 1.3rem;
       border: none;
+      float: none;
     }
     h1 {
       font-size: 5rem;
@@ -727,9 +728,7 @@ Media Queries
     .logoShop {
       padding-left: 20px;
     }
-    .title-pic {
-      padding-left: 20px;
-    }
+
 
     .locations {
       align-items: center;
