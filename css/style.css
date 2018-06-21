@@ -661,10 +661,10 @@ Media Queries
     }
     .home {
     display: block;
-    padding-top: 15%;
+    padding-top: 35%;
     padding-bottom: 26%;
     margin-bottom: 62px;
-    background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url(../img/kidflying.jpg) no-repeat center;
+    background: /*linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent),*/ #0060aa url(../img/medleyback.JPG) no-repeat center;
     background-size: cover;
     color: white;
     text-align: center;
