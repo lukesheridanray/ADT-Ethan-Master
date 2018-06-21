@@ -251,6 +251,7 @@ Details style
   }
   nav ul {
     display: none;
+        padding-left: 6%;
   }
   .main-header, .main-nav a {
     margin-top: 5px;
@@ -661,7 +662,7 @@ Media Queries
     .home {
     display: block;
     padding-top: 15%;
-    padding-bottom: 3%;
+    padding-bottom: 26%;
     margin-bottom: 62px;
     background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url(../img/kidflying.jpg) no-repeat center;
     background-size: cover;
@@ -706,6 +707,7 @@ Media Queries
       font-size: 1.3rem;
       border: none;
       float: none;
+      display: none;
     }
     h1 {
       font-size: 5rem;
