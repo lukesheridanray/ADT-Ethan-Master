@@ -790,10 +790,10 @@ Media Queries
   }
   .banner.home {
       display: block;
-      padding-top: 170px;
+      padding-top: 65%;
       padding-bottom: 0px;
       margin-bottom: 0px;
-      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/kidflying.jpg') no-repeat center;
+      background: /*linear-gradient(rgba(0, 69, 170, .22), transparent 90%),*/ linear-gradient(0deg, #fff, transparent), #0060aa url('../img/medleyback.jpg') no-repeat center;
       background-size: cover;
       color: white;
       text-align: center;
