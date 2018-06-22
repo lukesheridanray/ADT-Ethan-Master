@@ -1,7 +1,7 @@
     /* Web Fonts -------------------- */
 
   @font-face {
-    font-family: 'Jura', sans-serifs;
+    font-family: 'open sans', sans-serifs;
   }
   /* Base Styles -------------------- */
 
@@ -16,6 +16,9 @@ Details style
   text-align: left;
 
 
+}
+img.mobile-tap-phone {
+    padding-top: 20px;
 }
 .notes {
   text-align: left;
@@ -188,9 +191,7 @@ Details style
     margin: 0px 0;
     list-style-type: none;
   }
-  li {
-    margin-bottom: 10px;
-  }
+
   footer {
     font-size: 0.75em;
     text-align: center;
@@ -360,6 +361,9 @@ Details style
   .primary-content, .main-footer {
     display: block;
     text-align: center;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+
   }
   .primary-content {
     padding-top: 25px;
@@ -396,13 +400,18 @@ Details style
   }*/
   /* Layout Styles ------------------ */
 .primary-content, .secondary-content {
-  margin-left: 12px;
-  margin-right: 12px;
+  margin-left: 1px;
+  margin-right: 1px;
 }
   .primary-content {
-    margin: 0px 50px 0px;
+    /*margin: 0px 50px 0px;*/
     text-align: center;
   }
+.comp-underline-mob-new {
+    border-top: 2px solid #ff9600;
+    width: 70%;
+    margin-top: 0px;
+}
 
   h4#front-shop {
     margin-bottom: 15px;
@@ -416,12 +425,12 @@ Details style
     margin-right: auto;
   }
   p.intro {
-    border: solid 1px #878787;
     padding: 13px;
     width: 100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background: white;
 }
 
 
@@ -451,6 +460,7 @@ Details style
     width: 100%;
     padding: 20px;
     border-top: none;
+
   }
   /*.banner, {
     max-height: 380px;
@@ -663,8 +673,7 @@ Media Queries
     display: block;
     padding-top: 35%;
     padding-bottom: 26%;
-    margin-bottom: 62px;
-    background: /*linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent),*/ #0060aa url(../img/medleyback.JPG) no-repeat center;
+    background: linear-gradient(0deg,rgba(0, 69, 170, .45), transparent 85%), linear-gradient(0deg, #fff, transparent 100%), #0060aa url(../img/medleyback.JPG) no-repeat center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -689,7 +698,7 @@ Media Queries
       flex-direction: row;
       align-items: center;
       justify-content: space-evenly;
-      padding-top: 14px;
+      margin-bottom: 0px;
     }
     .main-nav i {
       display: block;
@@ -747,6 +756,17 @@ Media Queries
     .adt5-pack .com-center-mobile {
     box-shadow: 0
   }
+  .main-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 13%;
+    margin-bottom: 0px;
+  }
+  img.crop-photo {
+    max-width: 75%;
+        margin-bottom: 5px;
+}
   }
 
 
@@ -758,8 +778,20 @@ Media Queries
         max-width: 100%;
 
       }
+      .home {
+      display: block;
+      padding-top: 35%;
+      padding-bottom: 26%;
+      margin-bottom: 62px;
+      background: linear-gradient(0deg,rgba(0, 69, 170, .45), transparent 85%), linear-gradient(0deg, #fff, transparent 100%), #0060aa url(../img/medleyback.JPG) no-repeat center;
+      background-size: cover;
+      color: white;
+      text-align: center;
+      max-width: 100%;
+  }
+
       p.intro {
-        border: solid 1px #878787;
+      
         padding: 13px;
         width: 65%;
         display: block;
@@ -793,7 +825,7 @@ Media Queries
       padding-top: 65%;
       padding-bottom: 0px;
       margin-bottom: 0px;
-      background: /*linear-gradient(rgba(0, 69, 170, .22), transparent 90%),*/ linear-gradient(0deg, #fff, transparent), #0060aa url('../img/medleyback.jpg') no-repeat center;
+      background: linear-gradient(rgba(0, 69, 170, .22), transparent 90%), linear-gradient(0deg, #fff, transparent), #0060aa url('../img/medleyback.jpg') no-repeat center;
       background-size: cover;
       color: white;
       text-align: center;
@@ -978,8 +1010,17 @@ to{opacity:1}
 #mobile-tap-to-call-sticky{margin:0;background-color:#008cfd;height:53px;padding:0;width:100%;position:fixed;left:0;right:0;top:0;z-index:1040}
 #mobile-tap-to-call-sticky a:hover,#mobile-tap-to-call-sticky a:focus,#mobile-tap-to-call-sticky a:active{background-color:#035eb4}
 #mobile-tap-to-call-sticky .mobile-tap-to-call-sticky-flexbox{height:53px}
-#mobile-tap-to-call-sticky .mobile-tap-to-call-text{font-family:'Open Sans',sans-serif;font-size:1.25rem;font-weight:600;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;text-align:center;color:#fff}
-#mobile-tap-to-call-sticky span.campaign-tfn-number{font-family:'Open Sans',sans-serif;font-size:1.5rem;font-weight:bold;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;text-align:center;color:#fff}
+#mobile-tap-to-call-sticky .mobile-tap-to-call-text{
+font-family:'Open Sans',sans-serif;
+font-size:1.8rem;
+font-weight:600;
+font-style:normal;f
+ont-stretch:normal;
+line-height:normal;
+letter-spacing:normal;
+text-align:center;
+color:#fff}
+#mobile-tap-to-call-sticky span.campaign-tfn-number{font-family:'Open Sans',sans-serif;font-size:1.8rem;font-weight:bold;font-style:normal;font-stretch:normal;line-height:normal;letter-spacing:normal;text-align:center;color:#fff}
 .mobile-nav-bar{font-family:'Open Sans',sans-serif;background-color:#fff;color:#303538;position:fixed;top:53px;right:0;left:0;z-index:1030;height:55px;-webkit-transition:top .25s ease-in-out;-moz-transition:top .25s ease-in-out;-o-transition:top .25s ease-in-out;transition:top .25s ease-in-out}
 .mobile-nav-bar-no-tap-to-call{font-family:'Open Sans',sans-serif;background-color:#fff;color:#303538;position:fixed;right:0;left:0;z-index:1030;height:55px;-webkit-transition:top .25s ease-in-out;-moz-transition:top .25s ease-in-out;-o-transition:top .25s ease-in-out;transition:top .25s ease-in-out}
 .mobile-nav-bar ul,.mobile-nav-bar-no-tap-to-call ul{list-style:none !important;margin:0;padding:0}
@@ -2490,7 +2531,7 @@ a.bg-inverse:focus,a.bg-inverse:hover{background-color:#101112 !important}
 .flex-wrap-reverse{-webkit-flex-wrap:wrap-reverse !important;-ms-flex-wrap:wrap-reverse !important;flex-wrap:wrap-reverse !important}
 .justify-content-start{-webkit-box-pack:start !important;-webkit-justify-content:flex-start !important;-ms-flex-pack:start !important;justify-content:flex-start !important}
 .justify-content-end{-webkit-box-pack:end !important;-webkit-justify-content:flex-end !important;-ms-flex-pack:end !important;justify-content:flex-end !important}
-.justify-content-center{-webkit-box-pack:center !important;-webkit-justify-content:center !important;-ms-flex-pack:center !important;justify-content:center !important}
+.justify-content-center{-webkit-box-pack:center !important;-webkit-justify-content:center !important;-ms-flex-pack:center !important;justify-content:Center !important}
 .justify-content-between{-webkit-box-pack:justify !important;-webkit-justify-content:space-between !important;-ms-flex-pack:justify !important;justify-content:space-between !important}
 .justify-content-around{-webkit-justify-content:space-around !important;-ms-flex-pack:distribute !important;justify-content:space-around !important}
 .align-items-start{-webkit-box-align:start !important;-webkit-align-items:flex-start !important;-ms-flex-align:start !important;align-items:flex-start !important}
