@@ -16,23 +16,27 @@
 
   <header>
 
-    <nav class="hidden-xs main-header">
+    <nav class="hidden-xs hidden-sm main-header">
       <div class="rowed">
            <div class="main-nav t-border">
 
-        <div class="col-sm-4 col-xs-12 onet">
+        <!-- <div class="col-sm-4 col-xs-12 onet">
           <h4 class="h4head">
             Medly & Sons<br/>
             SECURITY IS WHAT WE DO...
           </h4>
-        </div>
-          <div class="col-sm-4 col-xs-12">
-            <img class="crop-photo" src="img/adtlogo.png" alt="Medley">
+        </div> -->
+          <div id="new_adt2" class="col-sm-4 col-xs-12">
+            <img id="new_adt3" class="crop-photo" src="img/Medley_&_Sons_Security_and_Automation_LLC_ADT_AD_Horz_2Color.png" alt="Medley">
           </div>
-          <div class="col-sm-4 col-xs-12 call-me-maybe">
-            <p href="tel:(479) 226-9400" class="h5head">
-              Contact Us <br/>
-              (479) 226-9400
+          <div id="new_adt" class="col-sm-4 col-xs-12 call-me-maybe">
+            <p href="tel:(502) 645-7947" class="h5head">
+              Call Ethan at
+
+            </p>
+            <p href="tel:(502) 645-7947" class="h5head">
+
+              (502) 645-7947
             </p>
         </div>
     </div>
@@ -57,9 +61,10 @@
   </div>
   <header>
 
-    <nav class="hidden-sm hidden-md hidden-lg hidden-xl small-header">
+    <nav class="hidden-md hidden-lg hidden-xl small-header">
         <ul class="main-nav">
-          <li><a><img class="crop-photo" src="img/adtlogo.png" alt="Medley"></a></li>
+
+          <li><a><img class="crop-photo" src="img/Medley_&_Sons_Security_and_Automation_LLC_ADT_AD_Horz_2Color.png" alt="Medley"></a></li>
         </ul>
       </nav>
   </header>
@@ -76,13 +81,11 @@
   <!--//.main-header-->
 
   <div id="top" class="banner home">
-
     <a><img class="title-pic" src="img/logo.png" alt="Medley"></a>
       <!--  <i class="fa fa-angle-double-down"lets see if it works></i>-->
   </div>
 
 
-  <!--  //<img class="arrow" src="img/arrow.svg" alt="Down arrow">//-->
 
   <div class="primary-content t-border style="box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);"">
     <div class="container-fluid ">
@@ -110,11 +113,11 @@
 
 
     <p class="intro" style="box-shadow: 0 2px 40px 0 rgba(0, 0, 0, 0.2);">
-      Medley & Sons is dedicated to your safety,
+      Medley & Sons is dedicated to your safety
       and taking care of the people and property you value most in your life.
-      Our customers trust us to help protect those things that cannot be replaced, remade or rebuilt.
-      It’s a trust we’ve worked to earn and maintain every day.
-      And we’ll continue to earn your trust 24 hours a day, 365 days a year
+      Our customers trust us to help protect the things that matter most.
+      It’s a trust we have worked to earn and maintain every day.
+      And we will continue to earn your trust 24 hours a day, 365 days a year.
     </p>
   </div>
 
@@ -542,13 +545,10 @@ second portion
 			        <input id="email" type="email" v-validate:email="['required']" name="_replyto">
 							<label for="bio">How Can We Serve You?</label>
 							<textarea id="bio" name="Info" v-model="message"></textarea>
-							<label>Interests:</label>
-							<input type="checkbox" id="development" value="Consulting" name="user_interest"><label class="light" for="development">Consulting</label><br>
-							<input type="checkbox" id="design" value="Equipment" name="user_interest"><label class="light" for="design">Equipment</label><br>
-							<input type="checkbox" id="train" value="Training" name="user_interest"><label class="light" for="business">Training</label>
 
-							<button  id="button" id="#app" class="wholesale" type="submit" v-show="message" onclick="return clicked();" value="Send">Send</button>
 
+							<button  id="button" id="#app" class="wholesale" type="submit"  onclick="return clicked();" value="Send">Send</button>
+<!--v-show="message"-->
 
 
 
@@ -580,11 +580,13 @@ second portion
 
 
 <footer class="main-footer">
-  <a href="http://twitter.com/MedleySons"><img src="img/twitter-wrap.png" alt="Twitter Logo" class="social-icon"></a>
-  <a href="http://facebook.com/MedleySons"><img src="img/facebook-wrap.png" alt="Facebook" class="social-icon"></a>
 
+  <a href="https://www.facebook.com/EthanMedleyADT/"><img src="img/facebook-wrap.png" alt="Facebook" class="social-icon"></a>
+  <p class="luke">
+    ADT Pulse Interactive Solutions Services, which help you manage your home environment and family lifestyle, requires the purchase and/or activation of an ADT alarm system with monitored burglary service and a compatible computer, cell phone or PDA with Internet and email access. These ADT Pulse Interactive Solutions Services do not cover the operation or maintenance of any household equipment/systems that are connected to the ADT Pulse Interactive Solutions Services/Equipment. All ADT Pulse Interactive Solutions Services are not available with the various levels of ADT Pulse Interactive Solutions Services. All ADT Pulse Interactive Solutions Services may not be available in all geographic areas. Standard message and data rates may apply to text alerts. You may be required to pay additional charges to purchase equipment required to utilize the ADT Pulse Interactive Solutions Services features you desire.
+  </p>
 
-  <p class="luke">&copy; 2018 Luke Vaughan.</a>.</p>
+  <p class="luke">&copy; 2018 Medley & Sons.</a>.</p>
   <a href="#top">Back to top &raquo;</a>
 </footer>
 
