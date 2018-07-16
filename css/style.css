@@ -840,7 +840,7 @@ Media Queries
       padding-top: 35%;
       padding-bottom: 10%;
       margin-bottom: 62px;
-      background: linear-gradient(0deg,rgba(0, 69, 170, .45), transparent 85%), linear-gradient(0deg, #fff, transparent 100%), #0060aa url(../img/medleyback.JPG) no-repeat center;
+      background: linear-gradient(0deg,rgba(0, 69, 170, .45), transparent 85%), linear-gradient(0deg, #fff, transparent 100%), #0060aa url(../img/medleyback.jpg) no-repeat center;
       background-size: cover;
       color: white;
       text-align: center;
